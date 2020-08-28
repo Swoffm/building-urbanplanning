@@ -15,14 +15,16 @@ namespace Planner
         private DateTime _yearEstablished;
 
         // properties 
+        public string CityName { get; set; }
+        public string Mayor { get; set; }
 
-        private List<Building> _buildingList;
+        public List<Building> BuildingList { get; set; }
 
-        public City(string city, string mayor, Building building)
+        public City(string city, string mayor)
         {
             _cityName = city;
             _mayor = mayor;
-            _buildingList.Add(building);
+
         }
 
 

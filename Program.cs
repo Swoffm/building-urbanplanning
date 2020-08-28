@@ -12,11 +12,23 @@ namespace Planner
             FiveOneTwoEight.Stories = 45;
             FiveOneTwoEight.Construct();
             FiveOneTwoEight.Purchase("Steve");
-            FiveOneTwoEight.displayInfo();
+            // FiveOneTwoEight.displayInfo();
 
 
-            City Nashville = new City("Nashville", "Dan Cooper", FiveOneTwoEight);
+            Console.WriteLine(FiveOneTwoEight.);
+            City Nashville = new City("Nashville", "Dan Cooper");
 
+
+
+
+            // Nashville.BuildingList.Add();
+
+            // Nashville.BuildingList.Add(FiveOneTwoEight);
+
+            // foreach (Building building in Nashville.BuildingList)
+            // {
+            //     Console.WriteLine(building);
+            // }
 
         }
 
